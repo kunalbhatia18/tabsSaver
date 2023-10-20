@@ -1,6 +1,6 @@
 # Tabs Saver
 
-Tabs Saver is a simple Chrome extension that allows you to save and manage your browser tabs.
+Tabs Saver is a simple Chrome/Brave extension that allows you to save and manage your browser tabs.
 
 ## Features
 
