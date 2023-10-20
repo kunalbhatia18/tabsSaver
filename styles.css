@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    min-width: 500px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add these styles to your styles.css file */
+
+h1 {
+    text-align: center;
+    margin-top: 0px; /* Adjust the margin as needed */
+}
+h1 img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+#save-tabs, #save-current-tab {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#save-current-tab:hover {
+    background-color: #0056b3;
+}
+#save-tabs:hover{
+    background-color: #0056b3;
+}
+
+/* ... Existing CSS styles ... */
+.delete-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 12px; /* Adjust the width as needed */
+    height: 12px; /* Adjust the height as needed */
+    transition: color 0.3s; /* Transition for color change */
+}
+
+.delete-icon:hover {
+    width: 12px; /* Adjust the width for the hover state */
+    height: 12px; /* Adjust the height for the hover state */
+    cursor: pointer;
+    content: url('images/delete-hover.png'); /* Change image on hover */
+    color: red; /* Adjust the color for the hover state */
+}
+
+
+#delete-all{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+#delete-all:hover {
+    background-color: red;
+}
